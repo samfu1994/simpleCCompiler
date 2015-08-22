@@ -1,0 +1,46 @@
+File description:
+
+	README:
+		description of files in project folder.
+
+	makefile:
+		make file for the project.
+
+	smallc.l:
+		lexical source code.
+
+	smallc.y:
+		syntex analizer source code.
+
+	def.h:
+		define structures and functions for three address code generator and  code generator
+
+	defCodegen.h:
+		define structures for code geration.
+
+	funcs.c:
+		implementations of funcs defined in def.h.
+
+	codegen.c:
+		implementation for code generation.
+
+	testcode:
+		testcode writen in smallC language to
+		test the the generated lexical analizer
+		and syntex analizer.
+
+
+Commands for compile this project
+
+	make:
+		build the whole project.
+
+	make clean:
+		remove temporary files generated
+		in the procedure of building.
+
+	make run:
+		build the project and run test case
+		using input from file "testcode"
+
+
